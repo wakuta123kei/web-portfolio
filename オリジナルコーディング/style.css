@@ -1,0 +1,132 @@
+/*共通設定*/
+html{
+    font-size: 100%;
+}
+
+body{
+    margin: 0;
+    color: #383e45;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+
+}
+
+h2,h3{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    padding: 30px;
+}
+
+@media screen and (max-width:600px){
+    #newin ul{
+        flex-direction: column;
+    }
+}
+
+
+
+/*header*/
+#header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header ul {
+    display: flex;
+    padding-left: 0;
+}
+
+#header li {
+    margin-right: 20px;
+}
+
+#header h1 {
+    max-width: 20%;
+    margin: 0;
+}
+
+#header img {
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+}
+#header a{
+    color: #383e45;
+}
+
+
+
+
+/*main*/
+
+/*mainvisual*/
+section #mainnvisual{
+      margin: 30px;
+}
+
+section#mainvisual {
+    background-color: rgb(234, 224, 211);
+}
+
+#mainvisual a{
+    color: #383e45;
+}
+
+/*new in*/
+#newin li{
+    margin: 0 10px;
+}
+
+#newin h2{
+    padding-bottom: 20px;
+}
+#newin ul{
+    display: flex;
+    padding-left: 0;
+}
+
+
+
+/*about*/
+section#about{
+    padding-bottom: 60px;
+    background-color: rgb(234, 224, 211);
+}
+
+/*style*/
+#style a{
+    color: #383e45;
+}
+
+
+
+
+
+/*footer*/
+footer {
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #eee;
+}
